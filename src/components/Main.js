@@ -41,8 +41,8 @@ class AppComponent extends React.Component {
 class ImgFigure extends React.Component{
   render(){
     return(
-      <figure>
-        <img className="img-figure" src={this.props.data.imageURL}
+      <figure className="img-figure">
+        <img  src={this.props.data.imageURL}
         alt="{this.props.data.title}"/>
         <figcaption>
           <h2 className="img-title">{this.props.data.title}</h2>
