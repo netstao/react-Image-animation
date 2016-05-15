@@ -22,6 +22,24 @@ html,body{
   overflow:hide;
   background-color:#ddd;
 
+   @at-root{
+     .img-figure{
+       width: 320px;
+       margin: 0;
+       padding: 40px;
+       box-sizing: border-box;
+    }
+
+    figcaption{
+      text-align: center;
+      .img-title{
+        margin: 20px 0 0 0;
+        color:#a7a0a2;
+      }
+    }
+   }
+  
+
 }
 
 .controller-nav{
