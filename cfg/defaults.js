@@ -7,7 +7,7 @@ function getDefaultModules() {
     preLoaders: [{
         test: /\.(js|jsx)$/,
         include: srcPath,
-        loader: 'react-hot!babel-loader',
+        loader: 'eslint-loader'
       }],
     loaders: [
       {
